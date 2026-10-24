@@ -30,6 +30,7 @@
   --ease:cubic-bezier(.22,.8,.2,1);
 }
 *{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--noche)}
 body{background:var(--noche);color:var(--papel);font-family:var(--texto);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:inherit;text-decoration:none}
@@ -130,6 +131,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .plato{cursor:pointer}
 
 /* ---------- El menú (hoja de papel sobre la página) ---------- */
+.menu:not(.abierto){pointer-events:none}
 .menu{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
 .menu-fondo{position:absolute;inset:0;background:rgba(10,4,6,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .4s var(--ease)}
 .menu-hoja{position:relative;width:min(1080px,100%);height:min(900px,100%);display:flex;flex-direction:column;background:var(--papel);color:var(--tinta);border-radius:28px;overflow:hidden;box-shadow:0 60px 120px -40px rgba(0,0,0,.8);transform:translateY(40px) scale(.98);opacity:0;transition:transform .55s var(--ease),opacity .4s var(--ease)}
