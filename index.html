@@ -1237,5 +1237,13 @@ if (saved === 'en') setLang('en');
 })();
 </script>
 
+<!-- En El Mapa: formulario oculto para las estadísticas del aviso (Netlify lo registra al publicar) -->
+<form name="enelmapa-estadisticas" data-netlify="true" netlify-honeypot="bot-field" hidden style="display:none" aria-hidden="true">
+  <input name="visita"><input name="visitante"><input name="nuevo"><input name="sitio"><input name="aparato">
+  <input name="vio"><input name="cerro"><input name="llamar"><input name="instagram"><input name="otra_propuesta"><input name="segundos">
+  <input name="bot-field">
+</form>
+<!-- En El Mapa: aviso de propuesta -->
+<script src="enelmapa-aviso.js" defer data-estadisticas="netlify" data-sitio="kinkon" data-hermano-nombre="Candy Bar" data-hermano-url="https://candybar-ponce.netlify.app"></script>
 </body>
 </html>
