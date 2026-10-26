@@ -265,7 +265,7 @@ p.txt strong{font-weight:800;color:#111310}
       <h2 id="eem-t"><span class="l"><b>¿Te gusta</b></span><span class="l"><b>esta página para</b></span><span class="l"><b><mark>tu negocio?</mark></b></span></h2>
       <p class="txt" id="eem-d">Si estás buscando una página web como esta para llevar la presencia digital de tu negocio al próximo nivel, <strong>comunícate con En El Mapa.</strong></p>
       <div class="ctas">
-        <a class="cta tel" href="tel:+17879204400"><i>${ICON.tel}</i><span><small>Llámanos</small><b>787-920-4400</b></span></a>
+        <a class="cta tel" href="tel:+17879204410"><i>${ICON.tel}</i><span><small>Llámanos</small><b>787-920-4410</b></span></a>
         <a class="cta ig" href="https://instagram.com/enelmapapr" target="_blank" rel="noopener"><i>${ICON.ig}</i><span><small>Instagram</small><b>@enelmapapr</b></span></a>
       </div>${hermano}${riel}
     </div>
